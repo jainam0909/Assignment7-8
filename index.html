@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dice Game</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="container">
+    <h1>Dice Game(Player need to get more than 10 points to win!)</h1>
+  <div id="container_dice">
+    <div>
+        <p>Player 1</p>
+    <img class="dice" id="dice1" src="dice1.png" alt="Dice 1">
+    </div>
+    <div>
+        <p>Player 2</p>
+    <img class="dice" id="dice2" src="dice1.png" alt="Dice 2">
+    </div>
+  </div>
+  <button id="roll_btn">ROLL</button>
+  <div id="result"></div>
+  <table id="score_table">
+    <tr>
+      <th>Player</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>Player 1</td>
+      <td id="player1_score">0</td>
+    </tr>
+    <tr>
+      <td>Player 2</td>
+      <td id="player2_score">0</td>
+    </tr>
+  </table>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
